@@ -28,7 +28,7 @@ const restaurants = [
     image:
       "https://fooddrinklife.com/wp-content/uploads/2024/04/best-starbucks-coffee-drinks-2.jpg",
     rating: 4.5,
-    price: "₹500 for two",
+    price: "₹450 for two",
     menu: [
       { item: "Cappuccino", price: "₹210" },
       { item: "Cold Brew", price: "₹230" },
