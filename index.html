@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery App Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Eathub🍽️</h1>
+
+      <div class="header-controls">
+        <input
+          type="text"
+          id="location"
+          placeholder="📍 Enter location"
+          class="header-input"
+        />
+        <input
+          type="text"
+          id="search"
+          placeholder="🔍 Search restaurants or dishes..."
+          class="header-input"
+        />
+        <div class="auth-buttons">
+          <button id="signin-btn">Sign In</button>
+          <button id="logout-btn">Log Out</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="restaurant-list"></section>
+    </main>
+    <div class="floating-cart" id="cart-box">
+      🛒 <span id="cart-count">0</span>
+      <div class="cart-dropdown" id="cart-dropdown">
+        <ul id="cart-items"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
