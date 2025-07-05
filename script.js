@@ -72,7 +72,6 @@ function renderRestaurants(data) {
 
 renderRestaurants(restaurants);
 
-// Search functionality
 document.getElementById("search").addEventListener("input", function () {
   const val = this.value.toLowerCase();
   const filtered = restaurants.filter((r) =>
@@ -81,7 +80,6 @@ document.getElementById("search").addEventListener("input", function () {
   renderRestaurants(filtered);
 });
 
-// Sign In / Log Out
 document.getElementById("signin-btn").addEventListener("click", () => {
   alert("🟢 Signed In successfully!");
 });
@@ -89,8 +87,6 @@ document.getElementById("signin-btn").addEventListener("click", () => {
 document.getElementById("logout-btn").addEventListener("click", () => {
   alert("🔴 Logged out!");
 });
-
-// Add item alert
 function addItem(restaurant, item) {
   alert(`✅ Added ${item} from ${restaurant} to your order.`);
 }
