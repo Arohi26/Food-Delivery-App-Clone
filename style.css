@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
 
 :root {
-  --red: #ff3838;
+  --red: #87275c;
 }
 
 * {
@@ -103,8 +103,8 @@ header {
   font-weight: bold;
   text-decoration: none;
   color: #ffffff;
-  background-color: #ff3838;
-  border: 2px solid #ff3838;
+  background-color: #c82898;
+  border: 2px solid #470d0d;
   border-radius: 5px;
 }
 
@@ -363,7 +363,7 @@ header .navbar a:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
   border-radius: 0.5rem;
   flex: 1 1 30rem;
-  background: #045372;
+  background: #c19684;
   margin-top: 6rem;
 }
 
@@ -456,7 +456,7 @@ header .navbar a:hover {
 }
 
 .footer .credit span {
-  color: #0e21ce;
+  color: #404aa1;
 }
 
 .container {
@@ -495,7 +495,7 @@ header .navbar a:hover {
 }
 
 .footer-content ul li a:hover {
-  color: #ff3838;
+  color: #af3f7f;
 }
 
 .social-icons {
@@ -516,7 +516,7 @@ header .navbar a:hover {
 }
 
 .social-icons a:hover {
-  color: #ff3838;
+  color: #356fba;
 }
 
 #scroll-top {
