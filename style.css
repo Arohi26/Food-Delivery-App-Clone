@@ -295,6 +295,16 @@ header .navbar a:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
+.steps .box:nth-child(3) img {
+  width: 500px;
+  height: auto;
+}
+
+.steps .box:nth-child(2) img {
+  width: 500px;
+  height: auto;
+}
+
 .steps .box h3 {
   font-size: 3rem;
   color: #333;
